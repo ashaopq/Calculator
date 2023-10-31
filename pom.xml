@@ -7,6 +7,7 @@
     <groupId>com.houari</groupId>
     <artifactId>Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
+         
  <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -14,7 +15,8 @@
         <junit-jupiter-params.version>5.9.2</junit-jupiter-params.version>
     </properties>
  <dependencies>
-        <dependency>
+       
+          <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
             <version>${jackson-dataformat-yaml.version}</version>
